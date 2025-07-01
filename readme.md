@@ -20,22 +20,22 @@ Selamat datang di repositori **Sistem Informasi Akademik** – sebuah aplikasi d
 ### 1. Beranda (Dashboard)
 Menampilkan ucapan selamat datang yang personal untuk pengguna, dengan sentuhan visual yang bersih.
 ![Dashboard E-Learning](gambar/gambar1.png)
-*(Catatan: Anda perlu mengganti URL gambar ini dengan tangkapan layar Dashboard E-Learning Anda sendiri.)*
+
 
 ### 2. Manajemen Mahasiswa
 Kelola data mahasiswa (tambah, edit, hapus) dengan antarmuka formulir dan tabel yang rapi.
-![Manajemen Mahasiswa](https://raw.githubusercontent.com/areksaxyz/perpustakaan.v2/main/foto/mahasiswa_elearning_placeholder.png)
-*(Catatan: Anda perlu mengganti URL gambar ini dengan tangkapan layar halaman Manajemen Mahasiswa Anda sendiri.)*
+![Manajemen Mahasiswa](gambar/gambar2.png)
+
 
 ### 3. Lihat Data Nilai
 Pilih mahasiswa untuk melihat daftar nilai mereka per mata kuliah (Absensi, Quiz, UTS, UAS, Grade).
-![Lihat Data Nilai](https://raw.githubusercontent.com/areksaxyz/perpustakaan.v2/main/foto/nilai_elearning_placeholder.png)
+![Lihat Data Nilai](gambar/gambar3.png)
 *(Catatan: Anda perlu mengganti URL gambar ini dengan tangkapan layar halaman Nilai Anda sendiri.)*
 
 ### 4. Manajemen Mata Kuliah
 Menampilkan daftar lengkap mata kuliah beserta jadwal dan ruangan.
-![Manajemen Mata Kuliah](https://raw.githubusercontent.com/areksaxyz/perpustakaan.v2/main/foto/matakuliah_elearning_placeholder.png)
-*(Catatan: Anda perlu mengganti URL gambar ini dengan tangkapan layar halaman Mata Kuliah Anda sendiri.)*
+![Manajemen Mata Kuliah](gambar/gambar4.png)
+
 
 ---
 
@@ -70,5 +70,12 @@ Menampilkan daftar lengkap mata kuliah beserta jadwal dan ruangan.
 ### 1. Clone Repositori
 
 ```bash
-git clone [https://github.com/areksaxyz/perpustakaan.v2](https://github.com/areksaxyz/perpustakaan.v2)
+git clone [https://github.com/areksaxyz/ApliksiAkademik)
+cd AplikasiAkademik
+
+# Untuk Linux/macOS
+javac -cp "lib/flatlaf-3.3.jar:lib/mysql-connector-j-8.0.33.jar" -d src src/com/yourcompany/akademik/main/*.java src/com/yourcompany/akademik/model/*.java src/com/yourcompany/akademik/util/*.java src/com/yourcompany/akademik/dao/*.java src/com/yourcompany/akademik/view/*.java
+
+# Untuk Windows (gunakan ; sebagai pemisah classpath dan \ untuk path)
+# javac -cp "lib\flatlaf-3.3.jar;lib\mysql-connector-j-8.0.33.jar" -d src src\com\yourcompany\akademik\main\*.java src\com\yourcompany\akademik\model\*.java src\com\yourcompany\akademik\util\*.java src\com\yourcompany\akademik\dao\*.java src\com\yourcompany\akademik\view\*.java
 cd perpustakaan.v2
