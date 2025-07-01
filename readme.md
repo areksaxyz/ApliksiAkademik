@@ -19,7 +19,7 @@ Selamat datang di repositori **Sistem Informasi Akademik** – sebuah aplikasi d
 
 ### 1. Beranda (Dashboard)
 Menampilkan ucapan selamat datang yang personal untuk pengguna, dengan sentuhan visual yang bersih.
-![Dashboard E-Learning](https://raw.githubusercontent.com/areksaxyz/perpustakaan.v2/main/foto/dashboard_elearning_placeholder.png)
+![Dashboard E-Learning](gambar/gambar1.png)
 *(Catatan: Anda perlu mengganti URL gambar ini dengan tangkapan layar Dashboard E-Learning Anda sendiri.)*
 
 ### 2. Manajemen Mahasiswa
