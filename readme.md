@@ -76,6 +76,6 @@ cd AplikasiAkademik
 # Untuk Linux/macOS
 javac -cp "lib/flatlaf-3.3.jar:lib/mysql-connector-j-8.0.33.jar" -d src src/com/yourcompany/akademik/main/*.java src/com/yourcompany/akademik/model/*.java src/com/yourcompany/akademik/util/*.java src/com/yourcompany/akademik/dao/*.java src/com/yourcompany/akademik/view/*.java
 
-# Untuk Windows (gunakan ; sebagai pemisah classpath dan \ untuk path)
-# javac -cp "lib\flatlaf-3.3.jar;lib\mysql-connector-j-8.0.33.jar" -d src src\com\yourcompany\akademik\main\*.java src\com\yourcompany\akademik\model\*.java src\com\yourcompany\akademik\util\*.java src\com\yourcompany\akademik\dao\*.java src\com\yourcompany\akademik\view\*.java
-cd perpustakaan.v2
+
+# Untuk Windows
+# java -cp "src;lib\flatlaf-3.3.jar;lib\mysql-connector-j-8.0.33.jar" com.yourcompany.akademik.main.App
