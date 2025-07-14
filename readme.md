@@ -17,7 +17,7 @@ Selamat datang di repositori **Sistem Informasi Akademik** – sebuah aplikasi d
 
 ## 🖼️ Penjelasan Antarmuka
 
-### 1. Beranda (Dashboard)
+ 1. Beranda (Dashboard)
 Menampilkan ucapan selamat datang yang personal untuk pengguna, dengan sentuhan visual yang bersih.
 ![Dashboard E-Learning](gambar/gambar1.png)
 
