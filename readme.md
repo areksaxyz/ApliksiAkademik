@@ -29,7 +29,7 @@ Kelola data mahasiswa (tambah, edit, hapus) dengan antarmuka formulir dan tabel 
 
 ### 3. Lihat Data Nilai
 Pilih mahasiswa untuk melihat daftar nilai mereka per mata kuliah (Absensi, Quiz, UTS, UAS, Grade).
-(gambar/gambar3.png)
+![lihat data nilai](gambar/gambar3.png)
 
 ### 4. Manajemen Mata Kuliah
 Menampilkan daftar lengkap mata kuliah beserta jadwal dan ruangan.
